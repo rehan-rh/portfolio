@@ -3,7 +3,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const Hero = () => {
   return (
     <section
-      id="home"
+      id="hero"
       className="relative min-h-screen bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage:

@@ -26,7 +26,7 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex">
           <ul className="flex space-x-6">
-            {["hero", "about", "skills", "projects", "experience", "education", "contact"].map(
+            {["about", "skills", "projects", "experience", "education", "contact"].map(
               (section) => (
                 <li key={section}>
                   <button

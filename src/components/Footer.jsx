@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">
+    <footer id="contact" className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">
       <div className="max-w-6xl mx-auto px-6 text-center">
         
         {/* Contact Me Section */}
