@@ -24,7 +24,7 @@ export default function Footer() {
           <a href="https://github.com/rehan-rh" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-300 hover:text-blue-400 transition">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/pinjari-rehan-hussain" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-300 hover:text-blue-400 transition">
+          <a href="https://www.linkedin.com/in/pinjari-rehan-hussain-191517280/" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-300 hover:text-blue-400 transition">
             <FaLinkedin />
           </a>
         </div>
