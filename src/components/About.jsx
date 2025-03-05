@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import rehanProfile from "../assets/rehan_profile.png";
 
 export default function About() {
   return (
@@ -11,11 +12,15 @@ export default function About() {
           transition={{ duration: 0.8 }}
         >
           {/* Profile Image */}
-          <img
-            src="https://via.placeholder.com/300" // Replace with your actual image
-            alt="Rehan Hussain Pinjari"
-            className="w-60 h-60 object-cover rounded-full shadow-lg mx-auto md:mx-0 border-4 border-blue-400"
-          />
+          <div className="flex justify-center md:justify-start">
+            <div className="w-[350px] h-[350px] rounded-full overflow-hidden border-4 border-blue-300 shadow-lg">
+              <img
+                src={rehanProfile} 
+                alt="Rehan Hussain Pinjari"
+                className="w-full h-full object-cover scale-125" // Increase size inside
+              />
+            </div>
+          </div>
 
           {/* Text Content */}
           <div>
