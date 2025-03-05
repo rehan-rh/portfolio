@@ -6,7 +6,6 @@ import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Experience from "./components/Experience.jsx";
 import Education from "./components/Education.jsx";
-import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
       <Projects />
       <Experience />
       <Education />
-      <Contact />
       <Footer />
     </div>
   );

@@ -22,9 +22,19 @@ export default function About() {
             <h2 className="text-4xl font-bold text-blue-400 mb-4">About Me</h2>
             <p className="text-lg text-gray-300 leading-relaxed">
               Hi, I'm <span className="text-blue-300 font-semibold">Rehan Hussain Pinjari</span>, a 
-              <span className="text-blue-300 font-semibold"> Full-Stack MERN Developer</span> passionate about building 
-              scalable web applications and interactive user experiences. I thrive on writing clean, efficient code 
-              and collaborating with agile teams to develop high-quality products.
+              <span className="text-blue-300 font-semibold"> Full-Stack MERN Developer</span> with a passion for 
+              building scalable and interactive web applications. 
+              Currently, I'm interning at <span className="text-blue-300 font-semibold">Scale Orange</span>,
+              where I work on real-world projects that enhance user experience and system performance.
+            </p>
+            <p className="mt-4 text-gray-300">
+              I'm pursuing a <span className="text-blue-300 font-semibold">B.Tech in Computer Science</span> at RGUKT and 
+              enjoy research-driven learning, problem-solving, and software development. 
+              My expertise includes <span className="text-blue-300 font-semibold">React.js, Node.js, MongoDB, Java, and JavaScript</span>.
+            </p>
+            <p className="mt-4 text-gray-300">
+              I love collaborating with teams, building innovative solutions, and continuously improving my skills.
+              Let's connect and create something amazing together!
             </p>
             <a
               href="#contact"
