@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import rehanProfile from "../assets/rehan_profile.png";
+import Profile from "../assets/rehan_profile.png";
 
 export default function About() {
   return (
@@ -13,11 +13,11 @@ export default function About() {
         >
           {/* Profile Image */}
           <div className="flex justify-center md:justify-start">
-            <div className="w-[350px] h-[350px] rounded-full overflow-hidden border-4 border-blue-300 shadow-lg">
+            <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-blue-300 shadow-lg flex items-center justify-center">
               <img
-                src={rehanProfile} 
+                src={Profile} 
                 alt="Rehan Hussain Pinjari"
-                className="w-full h-full object-cover scale-125" // Increase size inside
+                className="w-full h-full object-cover object-center scale-110"
               />
             </div>
           </div>

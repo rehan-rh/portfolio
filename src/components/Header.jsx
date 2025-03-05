@@ -59,7 +59,7 @@ const Header = () => {
           className="md:hidden bg-gray-800 text-white py-4"
         >
           <ul className="flex flex-col items-center space-y-4">
-            {["hero", "about", "skills", "projects", "experience", "education", "contact"].map(
+            {["about", "skills", "projects", "experience", "education", "contact"].map(
               (section) => (
                 <li key={section}>
                   <button
