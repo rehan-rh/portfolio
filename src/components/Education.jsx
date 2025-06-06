@@ -5,13 +5,13 @@ const educationData = [
     degree: "BTech, Computer Science",
     institution: "Rajiv Gandhi University of Knowledge Technologies",
     year: "2022 – 2026",
-    cgpa: "Avg CGPA: 8.574",
+    cgpa: "CGPA: 8.574",
   },
   {
     degree: "PUC (Pre-University Course)",
     institution: "Rajiv Gandhi University of Knowledge Technologies",
     year: "2020 – 2022",
-    cgpa: "Avg CGPA: 9.61",
+    cgpa: "CGPA: 9.61",
   },
   {
     degree: "10th Grade",

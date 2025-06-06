@@ -26,7 +26,7 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex">
           <ul className="flex space-x-6">
-            {["about", "skills", "projects", "experience", "education", "contact"].map(
+            {["about", "skills", "projects", "education", "contact"].map(
               (section) => (
                 <li key={section}>
                   <button
@@ -59,7 +59,7 @@ const Header = () => {
           className="md:hidden bg-gray-800 text-white py-4"
         >
           <ul className="flex flex-col items-center space-y-4">
-            {["about", "skills", "projects", "experience", "education", "contact"].map(
+            {["about", "skills", "projects", "education", "contact"].map(
               (section) => (
                 <li key={section}>
                   <button

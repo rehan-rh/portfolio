@@ -15,18 +15,18 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto px-6 md:px-16 gap-x-12">
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-10 gap-y-10 md:gap-x-12">
         
         {/* Left Section - Animated Text */}
-        <div className="text-center md:text-left md:w-1/2 mt-2">
-          <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6 animate-fadeInUp">
+        <div className="text-center md:text-left w-full md:w-1/2 mt-2">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 animate-fadeInUp">
             Hi, I'm <span className="text-blue-400">Rehan</span>
             <br />
             <span className="animate-textColorChange">
               A Full Stack Developer
             </span>
           </h1>
-          <p className="text-lg md:text-2xl mb-8 max-w-lg mx-auto md:mx-0">
+          <p className="text-base sm:text-lg md:text-2xl mb-8 max-w-md sm:max-w-lg mx-auto md:mx-0">
             Building modern, scalable, and user-friendly web applications.
           </p>
           <div className="flex justify-center md:justify-start space-x-6 mt-6">
@@ -50,8 +50,8 @@ const Hero = () => {
         </div>
 
         {/* Right Section - Full Stack GIF */}
-        <div className="md:w-1/2 flex justify-center md:justify-end items-center">
-          <div className="w-[450px] h-[450px] rounded-xl overflow-hidden shadow-lg mb-3">
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end items-center">
+          <div className="w-60 h-60 sm:w-80 sm:h-80 md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[450px] rounded-xl overflow-hidden shadow-lg mb-3">
             <DotLottieReact
               src="https://lottie.host/6cea878b-f539-4aa9-819a-0a9ad2c7bd55/2RV4FXEfKm.lottie"
               loop

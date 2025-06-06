@@ -1,5 +1,7 @@
-import { FaReact, FaNodeJs, FaDatabase, FaCode, FaTools, FaGitAlt, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiRedux, SiExpress, SiTailwindcss, SiPostman } from "react-icons/si";
+import {
+  FaReact, FaNodeJs, FaDatabase, FaCode, FaGitAlt, FaHtml5,
+} from "react-icons/fa";
+import { SiTailwindcss, SiPostman } from "react-icons/si";
 
 export default function Skills() {
   const technicalSkills = [
@@ -26,31 +28,38 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-16 bg-gradient-to-r from-gray-800 to-gray-900 text-white">
-      <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-4xl font-bold text-blue-400 mb-8">Skills & Technologies</h2>
+    <section
+      id="skills"
+      className="py-10 sm:py-16 bg-gradient-to-r from-gray-800 to-gray-900 text-white"
+    >
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+        <h2 className="text-3xl sm:text-4xl font-bold text-blue-400 mb-8">
+          Skills & Technologies
+        </h2>
 
         {/* Technical Skills Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6">
           {technicalSkills.map((skill, index) => (
             <div
               key={index}
-              className="flex flex-col items-center bg-gray-800 p-5 rounded-xl shadow-lg transition transform hover:scale-105"
+              className="flex flex-col items-center bg-gray-800 p-4 sm:p-5 rounded-xl shadow-lg transition transform hover:scale-105"
             >
               {skill.icon}
-              <p className="text-gray-300 mt-2">{skill.name}</p>
+              <p className="text-gray-300 mt-2 text-sm sm:text-base">{skill.name}</p>
             </div>
           ))}
         </div>
 
         {/* Soft Skills Section */}
-        <div className="mt-12">
-          <h3 className="text-3xl font-semibold text-blue-400 mb-4">Soft Skills</h3>
-          <div className="flex flex-wrap justify-center gap-4">
+        <div className="mt-10 sm:mt-12">
+          <h3 className="text-2xl sm:text-3xl font-semibold text-blue-400 mb-4">
+            Soft Skills
+          </h3>
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
             {softSkills.map((skill, index) => (
               <span
                 key={index}
-                className="bg-gray-800 text-gray-300 px-4 py-2 rounded-lg shadow-md text-sm transition hover:bg-blue-500 hover:text-white"
+                className="bg-gray-800 text-gray-300 px-3 py-2 sm:px-4 sm:py-2 rounded-lg shadow-md text-xs sm:text-sm transition hover:bg-blue-500 hover:text-white"
               >
                 {skill}
               </span>
