@@ -27,7 +27,7 @@ export default function Footer() {
             href="tel:+917075123308"
             className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition text-sm sm:text-base"
           >
-            <FaPhone className="text-lg sm:text-xl" /> +91 7075123308
+            <FaPhone className="text-lg sm:text-xl transform scale-x-[-1]" /> +91 7075123308
           </a>
         </div>
 
