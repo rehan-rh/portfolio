@@ -31,8 +31,7 @@ export default function About() {
               Hi, I'm <span className="text-blue-300 font-semibold">Rehan Hussain Pinjari</span>, a
               <span className="text-blue-300 font-semibold"> Full-Stack MERN Developer</span> with a passion for
               building scalable and interactive web applications.
-              Currently, I'm interning at <span className="text-blue-300 font-semibold">Scale Orange</span>,
-              where I work on real-world projects that enhance user experience and system performance.
+              I specialize in crafting clean user interfaces and efficient backend systems to deliver modern, responsive web experiences.
             </p>
             <p className="mt-4 text-gray-300 text-base sm:text-lg">
               I'm pursuing a <span className="text-blue-300 font-semibold">B.Tech in Computer Science</span> at RGUKT and
